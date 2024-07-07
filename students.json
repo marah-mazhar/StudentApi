@@ -1,0 +1,802 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "age": 20,
+        "gender": "Male",
+        "address": {
+            "street": "123 Main Street",
+            "city": "Cityville",
+            "zip": "12345",
+            "country": "USA"
+        },
+        "email": "john.doe@example.com",
+        "phone": "555-123-4567",
+        "courses": [
+            "Mathematics",
+            "Physics"
+        ],
+        "gpa": 3.8,
+        "image": "https://fakeimg.pl/500x500/cc6600"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 21,
+        "gender": "Female",
+        "address": {
+            "street": "456 Park Avenue",
+            "city": "Townsville",
+            "zip": "67890",
+            "country": "USA"
+        },
+        "email": "jane.smith@example.com",
+        "phone": "555-987-6543",
+        "courses": [
+            "Chemistry",
+            "Biology"
+        ],
+        "gpa": 3.6,
+        "image": "https://fakeimg.pl/500x500/cc6601"
+    },
+    {
+        "id": 3,
+        "name": "Michael Johnson",
+        "age": 22,
+        "gender": "Male",
+        "address": {
+            "street": "789 Oak Street",
+            "city": "Villageland",
+            "zip": "54321",
+            "country": "USA"
+        },
+        "email": "michael.johnson@example.com",
+        "phone": "555-456-7890",
+        "courses": [
+            "History",
+            "English"
+        ],
+        "gpa": 3.5,
+        "image": "https://fakeimg.pl/500x500/cc6602"
+    },
+    {
+        "id": 4,
+        "name": "Emily Brown",
+        "age": 20,
+        "gender": "Female",
+        "address": {
+            "street": "101 Elm Street",
+            "city": "Cityburg",
+            "zip": "98765",
+            "country": "USA"
+        },
+        "email": "emily.brown@example.com",
+        "phone": "555-234-5678",
+        "courses": [
+            "Computer Science",
+            "Art"
+        ],
+        "gpa": 3.9,
+        "image": "https://fakeimg.pl/500x500/cc6603"
+    },
+    {
+        "id": 5,
+        "name": "William Lee",
+        "age": 23,
+        "gender": "Male",
+        "address": {
+            "street": "222 Maple Avenue",
+            "city": "Townburg",
+            "zip": "13579",
+            "country": "USA"
+        },
+        "email": "william.lee@example.com",
+        "phone": "555-765-4321",
+        "courses": [
+            "Economics",
+            "Political Science"
+        ],
+        "gpa": 3.7,
+        "image": "https://fakeimg.pl/500x500/cc6604"
+    },
+    {
+        "id": 6,
+        "name": "Olivia Wilson",
+        "age": 21,
+        "gender": "Female",
+        "address": {
+            "street": "333 Oakwood Drive",
+            "city": "Villetown",
+            "zip": "24680",
+            "country": "USA"
+        },
+        "email": "olivia.wilson@example.com",
+        "phone": "555-876-5432",
+        "courses": [
+            "Psychology",
+            "Sociology"
+        ],
+        "gpa": 3.4,
+        "image": "https://fakeimg.pl/500x500/cc6605"
+    },
+    {
+        "id": 7,
+        "name": "Daniel Garcia",
+        "age": 22,
+        "gender": "Male",
+        "address": {
+            "street": "444 Pine Street",
+            "city": "Townsville",
+            "zip": "13579",
+            "country": "USA"
+        },
+        "email": "daniel.garcia@example.com",
+        "phone": "555-678-9012",
+        "courses": [
+            "Computer Engineering",
+            "Physics"
+        ],
+        "gpa": 3.8,
+        "image": "https://fakeimg.pl/500x500/cc6606"
+    },
+    {
+        "id": 8,
+        "name": "Sophia Martinez",
+        "age": 20,
+        "gender": "Female",
+        "address": {
+            "street": "555 Cedar Lane",
+            "city": "Cityburg",
+            "zip": "86420",
+            "country": "USA"
+        },
+        "email": "sophia.martinez@example.com",
+        "phone": "555-890-1234",
+        "courses": [
+            "Biology",
+            "Chemistry"
+        ],
+        "gpa": 3.6,
+        "image": "https://fakeimg.pl/500x500/cc6607"
+    },
+    {
+        "id": 9,
+        "name": "Ethan Lopez",
+        "age": 23,
+        "gender": "Male",
+        "address": {
+            "street": "666 Elm Avenue",
+            "city": "Villageland",
+            "zip": "97531",
+            "country": "USA"
+        },
+        "email": "ethan.lopez@example.com",
+        "phone": "555-234-5678",
+        "courses": [
+            "Mathematics",
+            "Computer Science"
+        ],
+        "gpa": 3.9,
+        "image": "https://fakeimg.pl/500x500/cc6608"
+    },
+    {
+        "id": 10,
+        "name": "Isabella Rodriguez",
+        "age": 21,
+        "gender": "Female",
+        "address": {
+            "street": "777 Maple Road",
+            "city": "Townburg",
+            "zip": "75309",
+            "country": "USA"
+        },
+        "email": "isabella.rodriguez@example.com",
+        "phone": "555-876-5432",
+        "courses": [
+            "Literature",
+            "History"
+        ],
+        "gpa": 3.7,
+        "image": "https://fakeimg.pl/500x500/cc6609"
+    },
+    {
+        "id": 11,
+        "name": "James Hernandez",
+        "age": 22,
+        "gender": "Male",
+        "address": {
+            "street": "888 Oakwood Drive",
+            "city": "Villetown",
+            "zip": "64237",
+            "country": "USA"
+        },
+        "email": "james.hernandez@example.com",
+        "phone": "555-765-4321",
+        "courses": [
+            "Psychology",
+            "Sociology"
+        ],
+        "gpa": 3.5,
+        "image": "https://fakeimg.pl/500x500/cc6610"
+    },
+    {
+        "id": 12,
+        "name": "Charlotte Lopez",
+        "age": 20,
+        "gender": "Female",
+        "address": {
+            "street": "999 Pine Avenue",
+            "city": "Cityville",
+            "zip": "52849",
+            "country": "USA"
+        },
+        "email": "charlotte.lopez@example.com",
+        "phone": "555-901-2345",
+        "courses": [
+            "Economics",
+            "Political Science"
+        ],
+        "gpa": 3.8,
+        "image": "https://fakeimg.pl/500x500/cc6611"
+    },
+    {
+        "id": 13,
+        "name": "Alexander Scott",
+        "age": 21,
+        "gender": "Male",
+        "address": {
+            "street": "111 Elm Street",
+            "city": "Villageville",
+            "zip": "34678",
+            "country": "USA"
+        },
+        "email": "alexander.scott@example.com",
+        "phone": "555-789-0123",
+        "courses": [
+            "Computer Science",
+            "Data Science"
+        ],
+        "gpa": 3.9,
+        "image": "https://fakeimg.pl/500x500/cc6612"
+    },
+    {
+        "id": 14,
+        "name": "Mia Jenkins",
+        "age": 22,
+        "gender": "Female",
+        "address": {
+            "street": "222 Oak Avenue",
+            "city": "Citytown",
+            "zip": "98234",
+            "country": "USA"
+        },
+        "email": "mia.jenkins@example.com",
+        "phone": "555-345-6789",
+        "courses": [
+            "Art",
+            "Design"
+        ],
+        "gpa": 3.6,
+        "image": "https://fakeimg.pl/500x500/cc6613"
+    },
+    {
+        "id": 15,
+        "name": "William Adams",
+        "age": 23,
+        "gender": "Male",
+        "address": {
+            "street": "333 Maple Lane",
+            "city": "Towntown",
+            "zip": "78543",
+            "country": "USA"
+        },
+        "email": "william.adams@example.com",
+        "phone": "555-012-3456",
+        "courses": [
+            "Chemistry",
+            "Biology"
+        ],
+        "gpa": 3.7,
+        "image": "https://fakeimg.pl/500x500/cc6614"
+    },
+    {
+        "id": 16,
+        "name": "Sakura Tanaka",
+        "age": 21,
+        "gender": "Female",
+        "address": {
+            "street": "123 Sakura Street",
+            "city": "Tokyo",
+            "zip": "12345",
+            "country": "Japan"
+        },
+        "email": "sakura.tanaka@example.com",
+        "phone": "555-123-4567",
+        "courses": [
+            "Computer Science",
+            "Japanese Literature"
+        ],
+        "gpa": 3.9,
+        "image": "https://fakeimg.pl/500x500/1f77b4"
+    },
+    {
+        "id": 17,
+        "name": "Noah Roberts",
+        "age": 21,
+        "gender": "Male",
+        "address": {
+            "street": "555 Cedar Lane",
+            "city": "Twinville",
+            "zip": "64321",
+            "country": "USA"
+        },
+        "email": "noah.roberts@example.com",
+        "phone": "555-890-1234",
+        "courses": [
+            "History",
+            "Literature"
+        ],
+        "gpa": 3.5,
+        "image": "https://fakeimg.pl/500x500/cc6616"
+    },
+    {
+        "id": 18,
+        "name": "Ava Turner",
+        "age": 22,
+        "gender": "Female",
+        "address": {
+            "street": "666 Elm Avenue",
+            "city": "Cityland",
+            "zip": "58764",
+            "country": "USA"
+        },
+        "email": "ava.turner@example.com",
+        "phone": "555-234-5678",
+        "courses": [
+            "Mathematics",
+            "Physics"
+        ],
+        "gpa": 3.9,
+        "image": "https://fakeimg.pl/500x500/cc6617"
+    },
+    {
+        "id": 19,
+        "name": "Ethan Parker",
+        "age": 23,
+        "gender": "Male",
+        "address": {
+            "street": "777 Oak Street",
+            "city": "Villeton",
+            "zip": "98765",
+            "country": "USA"
+        },
+        "email": "ethan.parker@example.com",
+        "phone": "555-345-6789",
+        "courses": [
+            "Computer Engineering",
+            "Electronics"
+        ],
+        "gpa": 3.7,
+        "image": "https://fakeimg.pl/500x500/cc6618"
+    },
+    {
+        "id": 20,
+        "name": "Sophia Evans",
+        "age": 21,
+        "gender": "Female",
+        "address": {
+            "street": "888 Maple Avenue",
+            "city": "Townton",
+            "zip": "45678",
+            "country": "USA"
+        },
+        "email": "sophia.evans@example.com",
+        "phone": "555-890-1234",
+        "courses": [
+            "English",
+            "Communication"
+        ],
+        "gpa": 3.9,
+        "image": "https://fakeimg.pl/500x500/cc6619"
+    },
+    {
+        "id": 21,
+        "name": "Jackson Stewart",
+        "age": 22,
+        "gender": "Male",
+        "address": {
+            "street": "999 Elm Lane",
+            "city": "Cityville",
+            "zip": "56789",
+            "country": "USA"
+        },
+        "email": "jackson.stewart@example.com",
+        "phone": "555-012-3456",
+        "courses": [
+            "Business",
+            "Finance"
+        ],
+        "gpa": 3.6,
+        "image": "https://fakeimg.pl/500x500/cc6620"
+    },
+    {
+        "id": 22,
+        "name": "Isabella Clark",
+        "age": 20,
+        "gender": "Female",
+        "address": {
+            "street": "111 Pine Avenue",
+            "city": "Villageburg",
+            "zip": "45678",
+            "country": "USA"
+        },
+        "email": "isabella.clark@example.com",
+        "phone": "555-678-9012",
+        "courses": [
+            "Chemistry",
+            "Biology"
+        ],
+        "gpa": 3.8,
+        "image": "https://fakeimg.pl/500x500/cc6621"
+    },
+    {
+        "id": 23,
+        "name": "Aiden Turner",
+        "age": 21,
+        "gender": "Male",
+        "address": {
+            "street": "222 Elm Lane",
+            "city": "Cityland",
+            "zip": "34567",
+            "country": "USA"
+        },
+        "email": "aiden.turner@example.com",
+        "phone": "555-789-0123",
+        "courses": [
+            "Art",
+            "Design"
+        ],
+        "gpa": 3.7,
+        "image": "https://fakeimg.pl/500x500/cc6622"
+    },
+    {
+        "id": 24,
+        "name": "Charlotte Foster",
+        "age": 22,
+        "gender": "Female",
+        "address": {
+            "street": "333 Maple Avenue",
+            "city": "Twinville",
+            "zip": "23456",
+            "country": "USA"
+        },
+        "email": "charlotte.foster@example.com",
+        "phone": "555-234-5678",
+        "courses": [
+            "Psychology",
+            "Sociology"
+        ],
+        "gpa": 3.9,
+        "image": "https://fakeimg.pl/500x500/cc6623"
+    },
+    {
+        "id": 25,
+        "name": "Mason Ramirez",
+        "age": 23,
+        "gender": "Male",
+        "address": {
+            "street": "444 Oak Street",
+            "city": "Villetown",
+            "zip": "34567",
+            "country": "USA"
+        },
+        "email": "mason.ramirez@example.com",
+        "phone": "555-678-9012",
+        "courses": [
+            "Computer Science",
+            "Mathematics"
+        ],
+        "gpa": 3.5,
+        "image": "https://fakeimg.pl/500x500/cc6624"
+    },
+    {
+        "id": 26,
+        "name": "Scarlett Ward",
+        "age": 22,
+        "gender": "Female",
+        "address": {
+            "street": "555 Pine Avenue",
+            "city": "Townsville",
+            "zip": "23456",
+            "country": "USA"
+        },
+        "email": "scarlett.ward@example.com",
+        "phone": "555-890-1234",
+        "courses": [
+            "English Literature",
+            "History"
+        ],
+        "gpa": 3.8,
+        "image": "https://fakeimg.pl/500x500/cc6625"
+    },
+    {
+        "id": 27,
+        "name": "Logan Collins",
+        "age": 21,
+        "gender": "Male",
+        "address": {
+            "street": "666 Elm Lane",
+            "city": "Citytown",
+            "zip": "12345",
+            "country": "USA"
+        },
+        "email": "logan.collins@example.com",
+        "phone": "555-012-3456",
+        "courses": [
+            "Business Administration",
+            "Economics"
+        ],
+        "gpa": 3.6,
+        "image": "https://fakeimg.pl/500x500/cc6626"
+    },
+    {
+        "id": 28,
+        "name": "Zoe Mitchell",
+        "age": 20,
+        "gender": "Female",
+        "address": {
+            "street": "777 Maple Avenue",
+            "city": "Villagetown",
+            "zip": "56789",
+            "country": "USA"
+        },
+        "email": "zoe.mitchell@example.com",
+        "phone": "555-345-6789",
+        "courses": [
+            "Physics",
+            "Engineering"
+        ],
+        "gpa": 3.7,
+        "image": "https://fakeimg.pl/500x500/cc6627"
+    },
+    {
+        "id": 29,
+        "name": "Michael Martinez",
+        "age": 21,
+        "gender": "Male",
+        "address": {
+            "street": "888 Oak Street",
+            "city": "Villeland",
+            "zip": "45678",
+            "country": "USA"
+        },
+        "email": "michael.martinez@example.com",
+        "phone": "555-789-0123",
+        "courses": [
+            "Chemical Engineering",
+            "Materials Science"
+        ],
+        "gpa": 3.9,
+        "image": "https://fakeimg.pl/500x500/cc6628"
+    },
+    {
+        "id": 30,
+        "name": "Ava Rivera",
+        "age": 22,
+        "gender": "Female",
+        "address": {
+            "street": "999 Pine Avenue",
+            "city": "Townland",
+            "zip": "34567",
+            "country": "USA"
+        },
+        "email": "ava.rivera@example.com",
+        "phone": "555-234-5678",
+        "courses": [
+            "Fine Arts",
+            "Graphic Design"
+        ],
+        "gpa": 3.8,
+        "image": "https://fakeimg.pl/500x500/cc6629"
+    },
+    {
+        "id": 31,
+        "name": "Ethan Brooks",
+        "age": 23,
+        "gender": "Male",
+        "address": {
+            "street": "111 Elm Lane",
+            "city": "Cityville",
+            "zip": "12345",
+            "country": "USA"
+        },
+        "email": "ethan.brooks@example.com",
+        "phone": "555-890-1234",
+        "courses": [
+            "Computer Engineering",
+            "Electrical Engineering"
+        ],
+        "gpa": 3.7,
+        "image": "https://fakeimg.pl/500x500/cc6630"
+    },
+    {
+        "id": 32,
+        "name": "Olivia Hernandez",
+        "age": 22,
+        "gender": "Female",
+        "address": {
+            "street": "222 Maple Avenue",
+            "city": "Villetown",
+            "zip": "23456",
+            "country": "USA"
+        },
+        "email": "olivia.hernandez@example.com",
+        "phone": "555-012-3456",
+        "courses": [
+            "Psychology",
+            "Sociology"
+        ],
+        "gpa": 3.9,
+        "image": "https://fakeimg.pl/500x500/cc6631"
+    },
+    {
+        "id": 33,
+        "name": "Aiden Davis",
+        "age": 20,
+        "gender": "Male",
+        "address": {
+            "street": "333 Oak Street",
+            "city": "Towntown",
+            "zip": "34567",
+            "country": "USA"
+        },
+        "email": "aiden.davis@example.com",
+        "phone": "555-234-5678",
+        "courses": [
+            "Biology",
+            "Chemistry"
+        ],
+        "gpa": 3.6,
+        "image": "https://fakeimg.pl/500x500/cc6632"
+    },
+    {
+        "id": 34,
+        "name": "Sophia Clark",
+        "age": 21,
+        "gender": "Female",
+        "address": {
+            "street": "444 Pine Avenue",
+            "city": "Citytown",
+            "zip": "45678",
+            "country": "USA"
+        },
+        "email": "sophia.clark@example.com",
+        "phone": "555-345-6789",
+        "courses": [
+            "English",
+            "Journalism"
+        ],
+        "gpa": 3.8,
+        "image": "https://fakeimg.pl/500x500/cc6633"
+    },
+    {
+        "id": 35,
+        "name": "Liam Evans",
+        "age": 22,
+        "gender": "Male",
+        "address": {
+            "street": "555 Elm Lane",
+            "city": "Villagetown",
+            "zip": "56789",
+            "country": "USA"
+        },
+        "email": "liam.evans@example.com",
+        "phone": "555-789-0123",
+        "courses": [
+            "Physics",
+            "Astronomy"
+        ],
+        "gpa": 3.7,
+        "image": "https://fakeimg.pl/500x500/cc6634"
+    },
+    {
+        "id": 36,
+        "name": "Amelia Turner",
+        "age": 21,
+        "gender": "Female",
+        "address": {
+            "street": "666 Oak Street",
+            "city": "Villeland",
+            "zip": "67890",
+            "country": "USA"
+        },
+        "email": "amelia.turner@example.com",
+        "phone": "555-890-1234",
+        "courses": [
+            "Chemical Engineering",
+            "Environmental Science"
+        ],
+        "gpa": 3.9,
+        "image": "https://fakeimg.pl/500x500/cc6635"
+    },
+    {
+        "id": 37,
+        "name": "Noah Martinez",
+        "age": 23,
+        "gender": "Male",
+        "address": {
+            "street": "777 Maple Avenue",
+            "city": "Treetown",
+            "zip": "78901",
+            "country": "USA"
+        },
+        "email": "noah.martinez@example.com",
+        "phone": "555-012-3456",
+        "courses": [
+            "Computer Science",
+            "Data Science"
+        ],
+        "gpa": 3.8,
+        "image": "https://fakeimg.pl/500x500/cc6636"
+    },
+    {
+        "id": 38,
+        "name": "Sohyun Park",
+        "age": 23,
+        "gender": "Female",
+        "address": {
+            "street": "456 Han Street",
+            "city": "Seoul",
+            "zip": "54321",
+            "country": "South Korea"
+        },
+        "email": "sohyun.park@example.com",
+        "phone": "555-987-6543",
+        "courses": [
+            "Computer Engineering",
+            "Data Science"
+        ],
+        "gpa": 3.6,
+        "image": "https://fakeimg.pl/500x500/ffcc29"
+    },
+    {
+        "id": 39,
+        "name": "Logan Lee",
+        "age": 21,
+        "gender": "Male",
+        "address": {
+            "street": "999 Oak Street",
+            "city": "Cityland",
+            "zip": "90123",
+            "country": "USA"
+        },
+        "email": "logan.lee@example.com",
+        "phone": "555-345-6789",
+        "courses": [
+            "History",
+            "Political Science"
+        ],
+        "gpa": 3.5,
+        "image": "https://fakeimg.pl/500x500/cc6638"
+    },
+    {
+        "id": 40,
+        "name": "Mia Green",
+        "age": 22,
+        "gender": "Female",
+        "address": {
+            "street": "1010 Elm Lane",
+            "city": "Villetown",
+            "zip": "01234",
+            "country": "USA"
+        },
+        "email": "mia.green@example.com",
+        "phone": "555-678-9012",
+        "courses": [
+            "Art",
+            "Design"
+        ],
+        "gpa": 3.6,
+        "image": "https://fakeimg.pl/500x500/cc6639"
+    }
+]
