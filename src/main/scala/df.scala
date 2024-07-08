@@ -1,4 +1,5 @@
 import org.apache.spark.sql.{SparkSession, DataFrame}
+import org.apache.spark.sql.types._
 import requests._
 import ujson._
 
@@ -24,8 +25,28 @@ object df extends App {
   pw.write(prettyJson)
   pw.close()
 
-  // Read the saved JSON file into a DataFrame
-  val df: DataFrame = spark.read.option("multiline", "true").json(localPath)
+  // Define the schema
+  val schema = new StructType()
+    .add("id", IntegerType, true)
+    .add("name", StringType, true)
+    .add("age", IntegerType, true)
+    .add("gender", StringType, true)
+    .add("address", new StructType()
+      .add("street", StringType, true)
+      .add("city", StringType, true)
+      .add("zip", StringType, true)
+      .add("country", StringType, true), true)
+    .add("email", StringType, true)
+    .add("phone", StringType, true)
+    .add("courses", ArrayType(StringType, true), true)
+    .add("gpa", DoubleType, true)
+    .add("image", StringType, true)
+
+  // Read the saved JSON file into a DataFrame with the defined schema
+  val df: DataFrame = spark.read
+    .schema(schema)
+    .option("multiline", "true")
+    .json(localPath)
 
   // Print the schema of the DataFrame
   df.printSchema()
@@ -40,8 +61,8 @@ object df extends App {
   // 2. Calculate the average age of students
   df.selectExpr("avg(age) as avg_age").show()
 
-  // 3. Count the number of students by state (if address is a nested structure)
-  df.selectExpr("address.state").groupBy("state").count().show()
+  // 3. Count the number of students by country (nested structure)
+  df.selectExpr("address.country as country").groupBy("country").count().show()
 
   // Stop the Spark session
   spark.stop()
